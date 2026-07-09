@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 jobs:
   secure-rdp:
-    runs-on: windows-11-arm
-    timeout-minutes: 3700
+    runs-on: windows-2022
+    timeout-minutes: 3600
     steps:
       - name: Configure Core RDP Settings
         run: |
